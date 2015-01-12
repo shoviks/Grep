@@ -1,3 +1,9 @@
+#################################
+# Grep.py
+# Author: Shovik Shyamsundar
+# CSCI 4760
+#################################
+
 import sys
 import re
 
