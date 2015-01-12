@@ -9,7 +9,6 @@ import re
 
 if len(sys.argv) == 3:
     pattern = sys.argv[1]
-
     file = open( sys.argv[2], "r" ).readlines()
 
     for line in file:
@@ -36,4 +35,9 @@ elif len(sys.argv) == 4:
             if pattern == line:
                 print (line)
 
- 
+    else:   
+        print("Usage: ./Grep.py [option] [string] [filename]")
+
+else:
+    print("Usage: ./Grep.py [option] [string] [filename]")
+                
